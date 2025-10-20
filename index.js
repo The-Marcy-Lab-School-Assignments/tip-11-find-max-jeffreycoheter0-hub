@@ -9,7 +9,16 @@
  */
 
 const findMax = (numbers) => {
- //write your code here
+    //write your code here
+    return Math.max(...numbers);
+
+    // const max = numbers[0];
+    // for (let i = 0; i < numbers.length; i++) {
+    //     if (numbers[i] > max) {
+    //         max = numbers[i];
+    //     }
+    // }
+    // return max;
 };
 
 // Export the function for testing
